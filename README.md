@@ -3,7 +3,8 @@ Please go to https://github.com/xinyzhang9/friend-circles to see the codes.
 ## Description
 We are building a graph-like visulization of the real-time friend-circles of our users. 
 
-## Plan
+## Live
+http://friends.xinyangzhang.com
 
 ### Todo List
 - [x] Design database to store relative user information.
