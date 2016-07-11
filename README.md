@@ -1,7 +1,7 @@
 # friend-circles
-Please go to https://github.com/xinyzhang9/friend-circles to see the codes.
+
 ## Description
-We are building a graph-like visulization of the real-time friend-circles of our users. 
+We are building a graph-like visulization of the real-time friend circles. This app is implemented in MEAN stack and deployed with nginx.
 
 ## Live
 http://friends.xinyangzhang.com
@@ -17,6 +17,7 @@ http://friends.xinyangzhang.com
 - [x] Rank users with connections
 - [x] Reserve some superstars which user cannot delete or edit.
 - [x] Add a welcome page to new users and hide the admin page.
+- [x] Add gender option in welcome page
 
 ### Time Schedule
 
@@ -41,7 +42,7 @@ See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 - team: Mongoose
 - Contributor: Xinyang(xinyzhang9@gmail.com)
 - description: vivid visulization of the real-time friend-circles of our users. 
-- stack: Angular, Express, NodeJS, d3.js, MongoDB
+- stack: Angular, Express, NodeJS, d3.js, MongoDB, nginx
 
 > **Note:** The data we use may be fake. For now we are not recommending user input real data.
 >
@@ -49,5 +50,5 @@ See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 >full stack, big data, visulization, front-end
 >
 ## Screenshot
-![alt tag](https://raw.githubusercontent.com/xinyzhang9/friend-circles/master/screenshot.png)
+![alt tag](https://raw.githubusercontent.com/xinyzhang9/friend-circles/master/screenshot1.png)
 
