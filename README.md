@@ -1,5 +1,5 @@
 # friend-circles
-
+Please go to https://github.com/xinyzhang9/friend-circles for codes.
 ### Description
 We are building a graph-like visualization of the real-time friend circles. This app is implemented in MEAN stack and deployed with NGINX.
 ### Live
