@@ -1,29 +1,22 @@
-# friend-circles  
-Please visit https://github.com/xinyzhang9/friend-circles to see the full code.
+# friend-circles
 
-## Description
-We are building a graph-like visulization of the real-time friend circles. This app is implemented in MEAN stack and deployed with nginx.
-
-## Live
+### Description
+We are building a graph-like visualization of the real-time friend circles. This app is implemented in MEAN stack and deployed with NGINX.
+### Live
 http://friends.xinyangzhang.com
-## Demo
+### Demo
 [Demo on YouTube(Chinese Version)](https://youtu.be/tAQFk0LpZT4)  
 English Version comming soon...
-
-### Todo List
-- [x] Design database to store relative user information.
-- [x] Admin page to manage all users.
-- [x] User can add/remove friends.
-- [x] Visulization of the friend-circles using "force" graph.
-- [x] Real-time visulization when user or others add/remove friends.
-- [x] See specific user's friend-circles by double-clicking his node.
-- [x] Represent different users with color codes.
-- [x] Rank users with connections.
-- [x] Reserve some superstars which user cannot delete or edit.
-- [x] Add a welcome page to new users and hide the admin page.
-- [x] Add gender option in welcome page.
-- [x] Add search-node feature to quickly find a user in the graph.
-- [x] Add "find me" feature to quickly find myself.
+### Feature
+- [x] Force-graph: Data is rendered in a force-graph which can be dragged to reshape and relocate.
+- [x] Real-time drawing: Drawing function is triggered by any change of user without page refresh.
+- [x] Highlight: Direct conncections of a user are highlighted once the node is double-clicked.
+- [x] Tooltip: The name of the user is shown when the node is hovered.
+- [x] Search: The node can be quickly found by searching the user name.
+- [x] Find me: User's own node can be quickly found by just clicking the search button.
+- [x] Ranking: The rank of real-time top users are shown on the right panel.
+- [x] Admin: A hidden admin page is used to manage all user data.
+- [x] Degree of Separation: The shortest path between user and target is calculated and present with animation.
 
 ### Time Schedule
 
@@ -36,26 +29,27 @@ English Version comming soon...
 | 5 | 07/05/16  | 07/11/16  | Week 5 - Features implementation, functional testing  |
 | 6 | 07/12/16  | 07/18/16  | Week 6 - Code Polishing, Presentation, Documents writing  |
 
-## Resource
+### Resource
 - [BitTiger Project: TODO Page with AngularJS](https://www.bittiger.io/microproject/KmcxazLmePpSm6XqY)
 - [d3.js official website](https://d3js.org/)
 
-## License
+### License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
-## Project Information
+### Project Information
 - category: full stack
 - team: Mongoose
-- Contributor: Xinyang(xinyzhang9@gmail.com)
-- description: vivid visulization of the real-time friend-circles of our users. 
+- contributor: Xinyang Zhang(阳哥)(xinyzhang9@gmail.com)
+- description: real-time visualization of the friend-circles.
 - stack: Angular, Express, NodeJS, d3.js, MongoDB, nginx
 
-> **Note:** The data we use may be fake. For now we are not recommending user input real data.
+> **Note:** The data we are using may be fake. For now we are not recommending users to input real data. All images and names are only for the purpose of demonstration.
 >
 >**category options:** 
->full stack, big data, visulization, front-end
+>full stack, big data, visualization, front-end
 >
 ## Screenshots
-![alt tag](https://raw.githubusercontent.com/xinyzhang9/friend-circles/master/screenshot2.png)
+![alt tag](https://raw.githubusercontent.com/xinyzhang9/friend-circles/master/screenshot5.png)
 ![alt tag](https://raw.githubusercontent.com/xinyzhang9/friend-circles/master/screenshot3.png)
+![alt tag](https://raw.githubusercontent.com/xinyzhang9/friend-circles/master/screenshot4.png)
 
